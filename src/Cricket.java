@@ -11,7 +11,14 @@ public class Cricket extends JPanel {
 	public void paint(Graphics g) {
 		Graphics2D g2d = (Graphics2D) g;
 		g2d.setColor(Color.RED);
+		//Pitch
 		g2d.fillRect(190, 100, 50, 200);
+		//Bowler
+		g2d.drawOval(190, 350, 20, 20);
+		//WicketKeeper
+		g2d.drawOval(195, 50, 20, 20);
+		//1Slip
+		g2d.drawOval(170, 45, 20, 20);
 		;
 	}
 	
